@@ -1,6 +1,16 @@
 ---
-title: Welcome to Quartz
+title: Rama's Brain
 ---
+My name is Ramaditya Kotha. I'm currently an undergrad studying Electrical Engineering at UCLA. This is my digital brain, a collection of my projects, notes, and thoughts that I've decided to share on the internet!
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Some of my interests include photography, embedded systems, machine learning, and control theory.
+
+This website is a work in progress and will constantly be changing and evolving with my knowledge and experiences.
+
+***
+[Github](https://github.com/RamadityaK) [LinkedIn](https://www.linkedin.com/in/ramaditya-kotha/) [Maker.io](https://www.digikey.com/en/maker/profiles/52f0e026f9694e11845bf5f55a7c5fef) 
+
+Get in touch:
+adi.k394@yahoo.com
+
+Created with [Quartz v4.3.1](https://quartz.jzhao.xyz/) © 2024
