@@ -5,6 +5,8 @@ Hi! My name is Ramaditya Kotha. I'm currently an undergrad studying Electrical E
 
 Some of my interests include photography, embedded systems, machine learning, and control theory.
 
+Check out some of my [[Projects/index|projects]]!
+
 This website is a work in progress and will constantly be changing and evolving with my knowledge and experiences.
 	
 	

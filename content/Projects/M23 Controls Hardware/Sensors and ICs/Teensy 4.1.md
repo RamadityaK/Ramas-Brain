@@ -2,7 +2,7 @@ The brains of our PCB is a [Teensy 4.1](https://www.pjrc.com/store/teensy41.html
 
 - We program the Teensy with [Platform I/O](https://platformio.org/). Nobody should be using Arduino IDE 😭. 
 
-- The Teensy is a 3.3V Device. DO NOT GIVE AN INPUT 5V, IT WILL DIE. You must use [[M23 Sensors and ICs#Level Shifting|level shifters]] or voltage dividers for 5V signals.
+- The Teensy is a 3.3V Device. DO NOT GIVE AN INPUT 5V, IT WILL DIE. You must use [[0.M23 Sensors and ICs#Level Shifting|level shifters]] or voltage dividers for 5V signals.
 
 - **NEVER** plug in a laptop and a power supply to a Teensy, you will fry your USB port. It's highly advisable to isolate USB power from the 5V input port by cutting the pad on the bottom of the teensy to separate VUSB and Vin. 
 

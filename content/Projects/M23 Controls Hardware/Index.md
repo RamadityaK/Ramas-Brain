@@ -1,12 +1,12 @@
 ---
 title: M23 Controls Hardware
 ---
-
+![[Pasted image 20240907163034.png]]
 Hi! My name is [Rama](https://www.linkedin.com/in/ramaditya-kotha/), and I was the controls hardware PE for UCLA Baja SAE during the years of 2023-2024.
 
 It's the job of the controls hardware PE to design the electrical framework for the ECVT (*Electronic Continuously Variable Transmission*) and provide the infrastructure so that the car's ECVT can be programmed to always provide the optimal mix of RPM and torque.
 
-I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[M23 Harnessing|harnessing]], [[M23 Sensors and ICs|sensor selection and processing]], [[M23 Controls|control theory]], [[M23 Power System|power]], and [[M23 Improvements|potential future improvements]].
+I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[M23 Harnessing|harnessing]], [[0.M23 Sensors and ICs|sensor selection and processing]], [[M23 Controls|control theory]], [[M23 Power System|power]], and [[M23 Improvements|potential future improvements]].
 
 ## System Overview
 M23 ran on a 10HP [Kohler engine](https://www.sae.org/news/press-room/2022/10/kohler-baja-sae) with a peak low-end torque output of around 18 ft-lbs. 
@@ -50,7 +50,7 @@ Finally, the [[Can Bus|CAN BUS]] is the information highway that transports info
 - [[M23 Harnessing|Harnessing]]
 	- [[M23 Connectors|Connectors]]
 	- [[Harnessing Guidelines|Harnessing Guidelines]]
-- [[M23 Sensors and ICs|Sensors and ICs]]
+- [[0.M23 Sensors and ICs|Sensors and ICs]]
 	- [[Baja Kill Switches]]
 	- [[Brake Lights and Brake Sensor]]
 	- [[M23 Gear Tooth Sensors|Gear Tooth Sensors]]
@@ -78,6 +78,7 @@ I'd like to thank the following people, who were instrumental in providing me gu
 - Grant Paulker
 - Paige Larson
 - Beni Korol
+
 I couldn't have made any of this happen without the people above.
 ***
 Contact Rama: 
