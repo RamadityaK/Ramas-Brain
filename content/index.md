@@ -6,8 +6,8 @@ Hi! My name is Ramaditya Kotha. I'm currently an undergrad studying Electrical E
 Some of my interests include photography, embedded systems, machine learning, and control theory.
 
 This website is a work in progress and will constantly be changing and evolving with my knowledge and experiences.
+	
+	
 
-***
 [Github](https://github.com/RamadityaK) | [LinkedIn](https://www.linkedin.com/in/ramaditya-kotha/) | [Maker.io](https://www.digikey.com/en/maker/profiles/52f0e026f9694e11845bf5f55a7c5fef) 
 
-Get in touch: adi.k394@yahoo.com
