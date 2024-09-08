@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          <a href="mailto: adi.k394@yahoo.com">Contact Rama</a>
+          Contact me at: <a href="mailto:adi.k394@yahoo.com">adi.k394@yahoo.com</a>
         </p>
 
         <p>
