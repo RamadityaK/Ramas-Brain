@@ -30,7 +30,7 @@ Be careful with conflicting pull-up and pull-down resistors, especially when dea
 ### Level Shifting
 Level shifting is the process of converting the upper threshold of a digital signal from one voltage to another. 
 
-One great example of where level shifting is used are the [[M23 Gear Tooth Sensors|gear tooth sensors]] on M23. The gear tooth sensors return a logic high value of 5V, while the Teensy can only tolerate 3.3V. We can use a level shifter to *shift* the voltage of the signal to have a logic high of 3.3V.
+One great example of where level shifting is used are the [[Gear Tooth Sensors|gear tooth sensors]] on M23. The gear tooth sensors return a logic high value of 5V, while the Teensy can only tolerate 3.3V. We can use a level shifter to *shift* the voltage of the signal to have a logic high of 3.3V.
 
 The inner workings of a level shifter is well explained by [this article from Digikey](https://www.digikey.com/en/blog/logic-level-shifting-basics).
 
@@ -50,13 +50,13 @@ When implementing any filtering scheme, you must consider the following things:
 3. How much compute time does this take?
 
 ## Controls System Sensors
-- [[M23 Gear Tooth Sensors|Gear tooth sensors]]
-- [[M23 Throttle and Brake Potentiometers|Throttle and Brake Potentiometers]]
+- [[Gear Tooth Sensors|Gear tooth sensors]]
+- [[Throttle and Brake Potentiometers|Throttle and Brake Potentiometers]]
 
 ## Data Acquisition Sensors
-- [[M23 LoRa Radio|Lora Radio Module]]
-- [[M23 Shock Travel|Shock Travel Modules]]
-- [[M23 Strain Gauges|Strain Gauges]]
-- [[M23 Thermistors|Thermistors]]
+- [[LoRa Radio|Lora Radio Module]]
+- [[Shock Travel|Shock Travel Modules]]
+- [[Strain Gauges|Strain Gauges]]
+- [[Thermistors|Thermistors]]
 
 

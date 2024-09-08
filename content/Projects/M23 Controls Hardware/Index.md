@@ -6,7 +6,7 @@ Hi! My name is [Rama](https://www.linkedin.com/in/ramaditya-kotha/), and I was t
 
 It's the job of the controls hardware PE to design the electrical framework for the ECVT (*Electronic Continuously Variable Transmission*) and provide the infrastructure so that the car's ECVT can be programmed to always provide the optimal mix of RPM and torque.
 
-I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[M23 Harnessing|harnessing]], [[0.M23 Sensors and ICs|sensor selection and processing]], [[M23 Controls|control theory]], [[M23 Power System|power]], and [[M23 Improvements|potential future improvements]].
+I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[M23 Harnessing|harnessing]], [[Projects/M23 Controls Hardware/Sensors and ICs/Index|sensor selection and processing]], [[M23 Controls|control theory]], [[M23 Power System|power]], and [[M23 Improvements|potential future improvements]].
 
 ## System Overview
 M23 ran on a 10HP [Kohler engine](https://www.sae.org/news/press-room/2022/10/kohler-baja-sae) with a peak low-end torque output of around 18 ft-lbs. 
@@ -50,15 +50,15 @@ Finally, the [[Can Bus|CAN BUS]] is the information highway that transports info
 - [[M23 Harnessing|Harnessing]]
 	- [[M23 Connectors|Connectors]]
 	- [[Harnessing Guidelines|Harnessing Guidelines]]
-- [[0.M23 Sensors and ICs|Sensors and ICs]]
+- [[Projects/M23 Controls Hardware/Sensors and ICs/Index|Sensors and ICs]]
 	- [[Baja Kill Switches]]
 	- [[Brake Lights and Brake Sensor]]
-	- [[M23 Gear Tooth Sensors|Gear Tooth Sensors]]
-	- [[M23 Throttle and Brake Potentiometers|Throttle and Brake Potentiometers]]
-	- [[M23 Thermistors|Thermistors]]
-	- [[M23 Strain Gauges|Strain Gauges]]
-	- [[M23 Shock Travel|Shock Travel]]
-	- [[M23 LoRa Radio|LoRa Radio]]
+	- [[Gear Tooth Sensors|Gear Tooth Sensors]]
+	- [[Throttle and Brake Potentiometers|Throttle and Brake Potentiometers]]
+	- [[Thermistors|Thermistors]]
+	- [[Strain Gauges|Strain Gauges]]
+	- [[Shock Travel|Shock Travel]]
+	- [[LoRa Radio|LoRa Radio]]
 - [[M23 Power System|Power System]]
 	- [[M23 Actuator|Actuator and Actuation]]
 		- [[M23 Motor Selection|BLDC Motors]]

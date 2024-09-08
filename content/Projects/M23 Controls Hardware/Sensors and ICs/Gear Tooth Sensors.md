@@ -49,7 +49,7 @@ The Standex-Meder gear tooth sensor was chosen to read the engine RPM due to spa
 
 In our implementation, the sensor reads a reading disk attached to the engine output shaft. This reading disk has 16 slots. The sensor is triggered when it passes these slots.
 ![[Pasted image 20240907124411.png]]
-> *The rationale for using 16 slots is explained in the [[M23 Gear Tooth Sensors#Fourier Analysis|Fourier Analysis Section]]*.
+> *The rationale for using 16 slots is explained in the [[Gear Tooth Sensors#Fourier Analysis|Fourier Analysis Section]]*.
 
 ### Secondary RPM Sensor
 The secondary RPM sensor utilizes the LittleFuse sensor and was mounted in the gearbox parallel to the input gear's face. This meant it was reading a much smaller change in flux, and as a result had to be placed **1mm** from the face of the gear in the gearbox.
