@@ -16,10 +16,13 @@ In order to implement a CAN bus node, you need to have:
 CAN bus communication is special because it splits two signals to communicate 1s and 0s. Take a look at the picture below for a better understanding:
 ![[Pasted image 20240907154309.png]]
 
-## General Guidelines
-- CANH and CANL should always be a twisted pair to reduce EMI.
-- CANH and CANL should always be differentially routed and have similar length wires.
-- Nodes should be connected in series, with stub lengths kept to a minimum. Refer to the image below for a sample system wiring diagram.
+##
+
+>[!TIP]
+>- CANH and CANL should always be a twisted pair to reduce EMI.
+>- CANH and CANL should always be differentially routed and have similar length wires.
+>- Nodes should be connected in series, with stub lengths kept to a minimum. Refer to the image below for a sample system wiring diagram.
+
 ![[Pasted image 20240907154425.png]]
 
 
