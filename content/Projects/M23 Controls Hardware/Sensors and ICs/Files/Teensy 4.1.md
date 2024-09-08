@@ -1,4 +1,4 @@
-The brains of our PCB is a [Teensy 4.1](https://www.pjrc.com/store/teensy41.html). The Teensy runs on an NXP ARM-Cortex M7 chip at 600Mhz. This is much faster than the measly Arduino’s 16 Mhz ATMega chip. It has a lot of peripherals and I/O, and is super fast at floating point computations. The 4.1 also has 32 general purpose DMA channels. I will not cover DMA, but it is hugely useful in applications where you want to sample a data line very fast.
+The brains of our PCB is a [Teensy 4.1](https://www.pjrc.com/store/teensy41.html). The Teensy runs on an NXP ARM-Cortex M7 chip at 600Mhz. This is much faster than the measly Arduino’s 16 Mhz ATMega chip. It has a lot of peripherals and I/O, and is super fast at floating point computations. 
 
 We program the Teensy with [Platform I/O](https://platformio.org/). I love it!
 

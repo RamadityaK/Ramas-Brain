@@ -16,7 +16,7 @@ I've written a [4BL paper on a comparison between ultrasonic and laser methods](
 
 ## Linear Potentiometers
 
-I highly recommend switching to linear potentiometers for the next year. Potentiometers yield data that can be sample much faster, and is ultimately much more accurate.
+I highly recommend switching to linear potentiometers for the next year. Potentiometers yield data that can be sampled much faster, and is ultimately much more accurate.
 
 Linear potentiometers are the industry standard, but are expensive. You should be able to easily rig up a mounting solution to connect them to the top and bottom of the shock or any other suspension component. 
 

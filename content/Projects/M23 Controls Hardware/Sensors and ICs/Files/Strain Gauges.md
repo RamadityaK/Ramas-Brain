@@ -25,4 +25,7 @@ We can relate the change in resistance to strain with the gauge factor:
 $$G_F = \frac{\Delta R / R}{\epsilon}$$
 *where $R$ is the resistance, $G_F$ is the gauge factor, and $\epsilon$ is the strain*.
 
+##
 
+>[!TIP]
+>I recommend going with an off-the-shelf solution for strain gauges. You could make your own, but it's not worth the time when there are many other pressing improvements to take care of first.

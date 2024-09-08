@@ -6,7 +6,7 @@ Sensors and ICs are an integral part of the car's performance. They provide all 
 ## Digital Sensors
 Digital sensors represent data in a binary, high-low format. Digital sensors are used often because they "speak the same language" as computers and are noise resistant. 
 ![[Pasted image 20240907145531.png]]
-1s are usually represented with the system's nominal operating voltage. Since we use a Teensy 4.1, this nominal voltage is 3.3V.
+1s are usually represented with the system's nominal operating voltage (Vcc). Since we use a Teensy 4.1, this nominal voltage is 3.3V.
 
 0s are represented with close to 0V.
 
@@ -14,18 +14,22 @@ Digital sensors represent data in a binary, high-low format. Digital sensors are
 >Anything in the middle is known as the "grey zone" and can lead to unstable digital signals. 
 
 ### Pull-Up and Pull-Down Resistors
-One of the first things to get comfortable with in electronics is that nothing behaves ideally. 
+One of the first things to get comfortable with in electronics is that nothing behaves ideally. Ideally, if nothing is connected to a digital input, it should be an open circuit.
 
-In general, digital inputs should always be at a well-defined voltage level, either High or Low. If an input is left unconnected or "floating", it can pick up electrical noise or stray signals in the air, leading to an unstable and erratic state.
+In the real world, digital inputs should always be at a well-defined voltage level, either Vcc or ground. If an input is left unconnected or "floating", it can pick up electrical noise or stray signals in the air, leading to an unstable state.
+
+To remedy this, we use pull-up and pull down resistors, which guarantee a state when the input isn't connected.
 
 You can implement a pull-up resistor very simply by connecting a resistor from Vcc to the input pin. The smaller the resistor, the "stronger" the pull-up (more current can flow) and vice-versa.
 
 You can implement a pull-down resistor by connecting a resistor from ground to the input pin.
 ![[Pasted image 20240907150809.png]]
-> *Take some time to analyze the circuits above, considering the MCU as a very large resistor. You should be able to understand what the MCU reads when the switch is open and when the switch is closed. The switch emulates a digital signal that's left floating when not activated...*
+> *Take some time to analyze the circuits above, considering the MCU as a very large resistor. You should be able to understand what the MCU reads when the switch is open and when the switch is closed. You should also be able to understand the effect of the pull-up and pull-down resistors. 
+> 
+> The switch emulates a digital signal that's left floating when not activated...*
 
 > [!CAUTION]
-Be careful with conflicting pull-up and pull-down resistors, especially when dealing with level shifters.
+Be careful with conflicting pull-up and pull-down resistors, especially when dealing with level shifters. Some sensors may already have pull-up or pull-down resistors built in.
 
 ### Level Shifting
 Level shifting is the process of converting the upper threshold of a digital signal from one voltage to another. 

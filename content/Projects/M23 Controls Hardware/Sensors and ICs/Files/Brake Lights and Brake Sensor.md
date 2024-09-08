@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Brake lights and by extension, brake sensors are **required** in Baja. Consult [the rulebook](https://www.bajasae.net/cdsweb/gen/DocumentResources.aspx) for more details
+
 The wiring and operation of the brake lights is relatively straightforward. In Baja, we have two redundant brake lines. Each of these brake lines has its own pressure sensor. 
 
 The pressure sensor acts as a normally open switch, closing only when the pressure exceeds a certain threshold (dependent on sensor model).
@@ -7,5 +10,8 @@ We use these[ 1/8 in. NPT Brake Line Port Pressure Switches](https://www.speedwa
 
 >[!IMPORTANT]
 >The two sensors **MUST BE WIRED IN PARALLEL**. Furthermore, the brake light **must be powered by a 12V battery**! Failure to do either will result in the kill switches not working properly and a black flag.
+
+
+## Wiring Diagram
 
 ![[Pasted image 20240907120223.png]]

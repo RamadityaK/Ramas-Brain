@@ -20,13 +20,12 @@ The gear tooth sensor converts the magnetic field changes into an electrical sig
 
 We call each pulse on the output wire a "tick"
 ![[Pasted image 20240907122817.png]]
->*Illustration of a single "tick", as if you were reading the output line with an ossiloscope.*
+*Illustration of a single "tick", as if you were reading the output line with an oscilloscope.*
 
 To achieve reliable ticks, it's critical to follow the manufacturer specification on the distance between the reading face of the gear tooth sensor and the thing being read.
 
 > [!NOTE]
-> Incorrect air gaps can lead to unstable signals. Usually gear tooth sensors rely on comparator or transistor logic internally. Having a weak flux change can cause the outputs to "jiggle". If too few or too many ticks are being read, this could be a cause.
-
+> Incorrect air gaps can lead to unstable signals. Usually gear tooth sensors rely on comparator or transistor logic internally. Having a weak change in magnetic flux can cause the outputs to "jiggle". If too few or too many ticks are being read, this could be a cause.
 
 ## Current Implementation
 In previous years, we made our own gear tooth sensor modules with a [MLX90217LUA](https://www.digikey.com/en/products/detail/melexis-technologies-nv/mlx90217lua-caa-000-bu/431845) gear tooth sensor and [8019](https://www.digikey.com/en/products/detail/radial-magnets-inc/8019/555327) radial magnet. This approach proved to be easy to package, but unreliable and prone to heat failure, especially since it was housed inside the ECVT cover. 
@@ -36,13 +35,13 @@ This year, we began using industrial gear tooth sensors, which are packaged in e
 We used two SKUs from Digikey, the [A44-18ADSO-P5P21](https://standexelectronics.com/products/a44-18adso-p5p21-hall-effect-gear-tooth-sensor/) from Standex-Meder and the [55075](https://www.littelfuse.com/products/magnetic-sensors-and-reed-switches/hall-effect-sensors/55075.aspx) from Littelfuse.
 
 >[!NOTE]
->Both of these sensors output a 5V signal and take a 5V supply. Thus, you will need a level shifter to convert the signal to 3.3V for the Teensy.
+>Both of these sensors output a 5V signal and take a 5V supply. Thus, you will need a [[Projects/M23 Controls Hardware/Sensors and ICs/Index#Level Shifting|level shifter]] to convert the signal to 3.3V for the Teensy.
 >
->We used this [level shifter module from Adafruit](https://www.adafruit.com/product/757) that's rated for I2C communication, but you could also move to a custom MOSFET implementation if you're comfortable
+>We used this [level shifter module from Adafruit](https://www.adafruit.com/product/757) that's rated for I2C communication, but you could also move to a custom MOSFET implementation if you're comfortable.
 
 
 ### Engine RPM Sensor
-The Standex-Meder gear tooth sensor was chosen to read the engine RPM due to space constraints between the ECVT and the engine. It was very expensive at $100 per sensor.
+Due to packaging constraints in the transmission, the Standex-Meder was chosen to read the engine RPM for its small size. It was very expensive at $100 per sensor (compared to $25 for the Littelfuse).
 
 >[!CAUTION]
 >These sensors have a built in 5k *pull down resistor*, which **can interfere with pull up resistors found on some level shifters**! We learned that the hard way after 6 hours...
@@ -54,8 +53,12 @@ In our implementation, the sensor reads a reading disk attached to the engine ou
 ### Secondary RPM Sensor
 The secondary RPM sensor utilizes the LittleFuse sensor and was mounted in the gearbox parallel to the input gear's face. This meant it was reading a much smaller change in flux, and as a result had to be placed **1mm** from the face of the gear in the gearbox.
 ![[Pasted image 20240907124634.png]]
-While this posed no issues throughout the year, I highly recommend that you DO NOT copy this approach and instead place the gear tooth sensor inside the gearbox such that it radially reads the gear.
-![[Pasted image 20240907124443.png]]
+
+
+>[!TIP]
+>Instead of what's shown above, I highly recommend that you place the gear tooth sensor inside the gearbox such that it radially reads the gear. This gives the sensor more margin and better performance.
+>
+>![[Pasted image 20240907124443.png]]
 ## Fourier Analysis
 A critical design consideration is how many “ticks'' per rotation to have for each sensor. This was a heavily thought through decision for the primary gear tooth sensor. On one hand, having too few ticks would provide too poor a resolution for the control cycle to effectively control the car. On the other hand, adding too many ticks would make the reading disk weak, leading to deflection during normal operation which could break the gear tooth sensor. Thus, it became necessary to figure out the minimum number of ticks required per rotation. 
 
