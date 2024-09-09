@@ -8,7 +8,7 @@ Baja is a student-led off-roading competition where students design, build, and 
 
 It's the job of the controls hardware PE to design the electrical framework for the ECVT (*Electronic Continuously Variable Transmission*) and to provide the infrastructure to collect data to inform future design decisions.
 
-I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[M23 Harnessing|harnessing]], [[Projects/M23 Controls Hardware/Sensors and ICs/Index|sensor selection and processing]], [[M23 Controls|control theory]], and [[Projects/M23 Controls Hardware/Power and Actuation/Index|power]].
+I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[Projects/M23 Controls Hardware/Harnessing/Index|harnessing]], [[Projects/M23 Controls Hardware/Sensors and ICs/Index|sensor selection and processing]], [[M23 Controls|control theory]], and [[Projects/M23 Controls Hardware/Power and Actuation/Index|power]].
 
 ## Overview
 M23's powertrain ran on a 10HP [Kohler engine](https://www.sae.org/news/press-room/2022/10/kohler-baja-sae) with a peak low-end torque output of around 18 ft-lbs. 
@@ -54,8 +54,9 @@ The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communi
 	- [[M23 DAQ PCB|DAQ PCB]]
 	- [[M23 Main PCB|Main PCB]]
 	- [[M23 Dashboard PCB|Dashboard PCB]]
-- [[M23 Harnessing|Harnessing]]
-	- [[M23 Connectors|Connectors]]
+- [[Projects/M23 Controls Hardware/Harnessing/Index|Harnessing]]
+	- [[M23 Harnessing|M23 Harness Design]]
+	- [[M23 Connectors|M23 Connectors]]
 	- [[Harnessing Guidelines|Harnessing Guidelines]]
 - [[Projects/M23 Controls Hardware/Sensors and ICs/Index|Sensors and ICs]]
 	- [[Baja Kill Switches]]
