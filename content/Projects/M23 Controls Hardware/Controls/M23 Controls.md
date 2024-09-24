@@ -1,0 +1,16 @@
+- Controls system overview
+	- What's controls?
+	- Why Controls?
+	- How does it help the car? 
+	- Why the extra complication?
+- Control inputs
+	- Gear tooth sensors (wheel speed and engine)
+	- Gas and brake pedals
+- Controller Details
+	- PID Control
+	- Feed Forward Inputs
+	- Results
+- Improvements
+	- Tracking on braking
+	- Response time (mushy pedal, response laggy)
+	- Tuning Process

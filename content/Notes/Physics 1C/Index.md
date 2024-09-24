@@ -7,35 +7,34 @@ title: Physics 1C - Electricity, Magnetism, and Special Relativity
 
 ***
 ## Links to Topics
-[[Electric Field]]
-[[Magnetic Forces and Fields]]
-[[Biot-Savart Law]]
-[[Ampere's Law]]
+- [[Electric Field]]
+- [[Magnetic Forces and Fields]]
+- [[Biot-Savart Law]]
+- [[Ampere's Law]]
 
 [[Electromagnetism]]
-[[Faraday's Law]]
-[[Lenz's Law]]
-[[Electric Generators]]
-[[Inductance]]
-[[RL Circuits]]
-[[LC Circuits]]
-[[Alternating Current (AC)]]
-[[Complex Analysis]]
-[[Impedance]]
-[[RLC Circuits]]
-[[RLC Resonance]]
-
-
-[[Maxwell's Equations]]
-[[Poynting Vector]]
-[[Electromagnetic Waves]]
-[[The Nature of Light]]
-[[Snell's Law]]
-[[Geometric Optics]]
-[[Huygens's Principle]]
-[[Wave Optics]]
+- [[Faraday's Law]]
+- [[Lenz's Law]]
+- [[Electric Generators]]
+- [[Inductance]]
+- [[RL Circuits]]
+- [[LC Circuits]]
+- [[Alternating Current (AC)]]
+- [[Complex Analysis]]
+- [[Impedance]]
+- [[RLC Circuits]]
+- [[RLC Resonance]]
+- [[Maxwell's Equations]]
+- [[Poynting Vector]]
+- [[Electromagnetic Waves]]
+- [[The Nature of Light]]
+- [[Snell's Law]]
+- [[Geometric Optics]]
+- [[Huygens's Principle]]
+- [[Wave Optics]]
 
 [[Special Relativity]]
+
 ***
 ## Key Equations:
 ### Magnetic Forces

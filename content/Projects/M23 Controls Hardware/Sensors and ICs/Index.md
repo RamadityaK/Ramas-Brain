@@ -56,6 +56,7 @@ When implementing any filtering scheme, you must consider the following things:
 ## Controls System Sensors
 - [[Gear Tooth Sensors|Gear tooth sensors]]
 - [[Throttle and Brake Potentiometers|Throttle and Brake Potentiometers]]
+- [[Can Bus|Can Bus]]
 
 ## Data Acquisition Sensors
 - [[LoRa Radio|Lora Radio Module]]

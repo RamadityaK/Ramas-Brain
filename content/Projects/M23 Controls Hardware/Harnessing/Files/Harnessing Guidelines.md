@@ -2,6 +2,7 @@ Harnessing is a critical component of any electrical system. Many of the electri
 
 - [[M23 Harnessing|M23 Harnessing]]
 - [[M23 Connectors|M23 Connectors]]
+- [Nasa Workmanship Standards](https://archive.org/details/nasa-workmanship-standards/page/n31/mode/2up)
 
 ## Harnessing Diagrams
 A clear plan should be the first step in creating a harness. A harnessing diagram allows one to thoroughly review their harness design and identify potential issues before manufacturing begins. 
@@ -33,7 +34,7 @@ A conductor that exceeds its ampacity is subject to thermal issues and can cause
 >[!TIP]
 >It's best practice to always consider the worst case scenario and give yourself a little margin of error when considering the ampacity of your wires.
 
->[!THEORY]
+>[!theory]-
 To understand how the ampacity of a wire is determined, we should first look at how resistance is calculated from resistivity in the following formula:
 $$R = \frac{\rho l}{A}$$
 where $\rho$ is resistivity, $A$ is cross-sectional area, and $l$ is length. 
@@ -106,15 +107,58 @@ You can achieve proper strain relief with:
 	![[Pasted image 20240908164723.png]]
 
 ## EMI
+EMI or electromagnetic interference refers to disturbances that can affect an electrical circuit due to electromagnetic radiation from an external source.
+
+EMI can pose significant problems to circuitry, causing it to behave in unexpected ways. Therefore, it's of utmost importance to find ways to mitigate or better yet, eliminate EMI.
 
 ### Twisted Pairs
-- differential signals
-### Shielding
+A twisted pair is a set of two wires that are wrapped around each other in a spiral pattern.
+![[Pasted image 20240913112445.png]]
 
-- Faraday Cage
-- Be wary of chassis ground
+Twisted pairs are very useful in mitigating EMI, as their spiral wrapped geometry can cancel out EMI from nearby cables or electronics. 
+
+If you'd like to prove to yourself why, think about how the magnetic fields in the two wires cancel out if one wire has an induced current!
+
+Twisted pairs are also better for cable flexibility, as both wires travel an equal amount when bent!
+![[Pasted image 20240913113342.png]]
+
+As you can see, in the picture above, the untwisted wires travel an unequal length around the curve. If both wires are constrained to have the same start and end, the black wire will stretch or deform.
+
+On the other hand, the twisted wires travel an equal amount around the curve, so neither of them will be stretched when we constrain both ends.
+
+Twisted pairs are also good for differential signals because any induced noise in one pair is either cancelled or mirrored by the other pair, preserving signal timing and integrity. This is also called "common mode noise". Twisted pairs also ensure equal path lengths of wire for both ends of a differential signal, which is critical. It also reduces crosstalk from the differential pair to other signal wires nearby.
+
+There are two big cons of twisted pairs. 
+1. The twist inherently **increases the length of the wires**, leading to reduced wiring range. If a signal is susceptible to degradation over long distances and you have a particularly long run, twisted pair wiring can reduce signal integrity.
+2. Having wires twisted so closely together can cause **issues with heating, reducing the ampacity** of wires. Thus, it's not recommended to twist/bundle a lot of high amperage power wires together.
+
+### Shielding
+Shielding is another technique employed to reduce EMI issues in harnesses. Shielded wires consist of a metal mesh or foil wrapped around a wire. This wire is grounded at one end **ONLY** to the ground the wires inside reference.
+
+>[!WARNING]
+>Grounding a shielding cable at two ends can create a ground loop and leave your system MORE susceptible to noise!
+
+
+Shielded wires can be thought of as a Faraday cage, which routes all incident EMI through the outside of the cage without letting it propagate inside.
+
+Be very wary of your ground selection with your shielded ground. Choosing the right ground to prevent EMI is in and of itself a whole field of electrical engineering that I myself am not super familiar with. Think through the return paths of your signals and how induced currents will flow to decide a decent ground!
+
+Usually, it's advisable to separate your shielding ground and your digital ground by grounding all shielding to the chassis!
+
 ## Serviceability
-### Color Coding
-### Segregation
-### Labelling
-### Service Loops
+Serviceability is a factor that's often overlooked in Baja. In order to make design iterations and repairs as fast as possible, it's critical for the subcomponents to be easily serviceable. Serviceability also serves to minimize mistakes by making relevant information easy to access. Finally, serviceability allows documentation to be clean and simple, allowing future maintainers to repair the car easier.
+
+>[!NOTE]
+>What sounds more foolproof? "Snip the green wire labelled *power* to the left of the engine" or "Snip the wire to the left of the engine, underneath the cover, it's the wire that's not twisted"
+
+
+You can improve serviceability with the following things:
+- **Color Coding** your wires can serve as a simple way to denote broad categories of wires. Be sure to establish a club-wide convention early on in order to prevent confusion! It's also worth mentioning that you should be consistent with your wiring color and your heat shrink color!
+> [!EXAMPLE]
+>- Vcc - Red
+>- Ground - Black
+>- Data - Purple, Grey, Yellow, etc.
+
+- **Grouping** of similar wires allows people to service chunks of a harness rather than going on a scavenger hunt finding one particular wire. In general, the tidier the wiring, the more easily you'll be able to find and service it.
+- **Labelling** wire is critical to allowing **new** people to troubleshoot and even repair the car. Try walking someone not versed in electronics through repairing/troubleshooting a system that's not labelled. It's not fun. Even though you may know where things are, *not everyone else will*! Use a labelling machine to mark critical wires or details about them.
+- **Service Loops** are an often overlooked part of making a harness. When repairing/modifying a harness, you often need more wire. A service loop is a loop of extra wire in the harness. Service loops can be lifesavers, and you should leave them near areas prone to modification or damage.

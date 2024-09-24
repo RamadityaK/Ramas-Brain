@@ -1,0 +1,11 @@
+- What's a BLDC motor
+- Motor Specs
+	- KV
+	- Max current
+	- Max Power
+- Interfacing with Motor
+	- Shaft Types
+	- Ease of use
+- Encoder Support
+	- How internal encoders work
+	- Internal vs external encoders

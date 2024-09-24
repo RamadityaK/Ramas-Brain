@@ -1,0 +1,14 @@
+- What is the battery used for?
+- How to pick an appropriate voltage
+	- Step down considerations
+	- KV considerations
+- How to pick an appropriate capacity
+	- Calculating current consumption
+	- Calculating amp hours
+- Discharge Ratings
+- Pack Construction
+- Voltage Sag and Degradation
+- Thermal Runaway
+- FIRE
+- Regenerative Braking
+- BMS systems
