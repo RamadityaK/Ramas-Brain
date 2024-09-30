@@ -8,7 +8,7 @@ Baja is a student-led off-roading competition where students design, build, and 
 
 It's the job of the controls hardware PE to design the electrical framework for the ECVT (*Electronic Continuously Variable Transmission*) and to provide the infrastructure to collect data to inform future design decisions.
 
-I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[M23 PCB Design|PCB design]], [[Projects/M23 Controls Hardware/Harnessing/Index|harnessing]], [[Projects/M23 Controls Hardware/Sensors and ICs/Index|sensor selection and processing]], [[M23 Controls|control theory]], and [[Projects/M23 Controls Hardware/Power and Actuation/Index|power]].
+I'm building this guide as an open source knowledge transfer document, with the intention of sharing what I've learned over the year in [[Projects/M23 Controls Hardware/PCB Design/Index|PCB design]], [[Projects/M23 Controls Hardware/Harnessing/Index|harnessing]], [[Projects/M23 Controls Hardware/Sensors and ICs/Index|sensor selection and processing]], [[M23 Controls|control theory]], and [[Projects/M23 Controls Hardware/Power and Actuation/Index|power]].
 
 ## Overview
 M23's powertrain ran on a 10HP [Kohler engine](https://www.sae.org/news/press-room/2022/10/kohler-baja-sae) with a peak low-end torque output of around 18 ft-lbs. 
@@ -21,8 +21,10 @@ To respond to this need, we've created the [[ECVT|ECVT]], an electronically cont
 
 *Click [[ECVT|here]] to learn about the mechanical workings of an ECVT*
 
+
 >[!NOTE]
 *For software questions, contact [Grant Paulker](https://www.linkedin.com/in/grantpauker/). I should also be able to answer high level programming questions that don't go too far into the weeds.*
+
 
 ### Objectives and Goals
 Baja is ultimately an endurance competition that tests the performance of an off-roading car over multiple different events (acceleration, suspension, etc.). Our goal on electronics is not only to control the car's transmission, but also to provide data to other subteams to inform future design decisions. 
@@ -49,14 +51,17 @@ The red system at the bottom is our power and actuation system. A 52V [[Battery 
 
 The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communication between all three of these systems.
 ## Contents
-- [[M23 PCB Design|PCB Design]]
+- Basic Operation
+	- Starting and Operation
+	- Maintenance
+- [[Projects/M23 Controls Hardware/PCB Design/Index|PCB Design]]
 	- [[PCB Design Guidelines|General Guidelines]]
 	- [[M23 DAQ PCB|DAQ PCB]]
 	- [[M23 Main PCB|Main PCB]]
 	- [[M23 Dashboard PCB|Dashboard PCB]]
 - [[Projects/M23 Controls Hardware/Harnessing/Index|Harnessing]]
 	- [[M23 Harnessing|M23 Harness Design]]
-	- [[M23 Connectors|M23 Connectors]]
+	- [[Connectors|Connectors]]
 	- [[Harnessing Guidelines|Harnessing Guidelines]]
 - [[Projects/M23 Controls Hardware/Sensors and ICs/Index|Sensors and ICs]]
 	- [[Baja Kill Switches]]
@@ -73,6 +78,12 @@ The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communi
 		- [[Odrive Pro|O-Drive Pro]]
 	- [[Battery Selection|Battery and Power Distribution]]
 - [[M23 Controls|Control Theory]]
+- [[Projects/M23 Controls Hardware/Instrumentation/Index|Instrumentation]]
+	- Oscilloscopes
+	- Function Generators
+	- AD2
+	- Spectrum Analyzers
+	- Test Benching
 - [[M23 Known Issues and Troubleshooting|Known Issues and Troubleshooting]]
 - [[M23 Improvements|Further Improvements]]
 

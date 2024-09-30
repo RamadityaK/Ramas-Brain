@@ -24,12 +24,16 @@ You can implement a pull-up resistor very simply by connecting a resistor from V
 
 You can implement a pull-down resistor by connecting a resistor from ground to the input pin.
 ![[Pasted image 20240907150809.png]]
-> *Take some time to analyze the circuits above, considering the MCU as a very large resistor. You should be able to understand what the MCU reads when the switch is open and when the switch is closed. You should also be able to understand the effect of the pull-up and pull-down resistors. 
+
+>Take some time to analyze the circuits above, considering the MCU as a very large resistor. You should be able to understand what the MCU reads when the switch is open and when the switch is closed. You should also be able to understand the effect of the pull-up and pull-down resistors. 
 > 
-> The switch emulates a digital signal that's left floating when not activated...*
+> The switch emulates a digital signal that's left floating when not activated...
+> 
+
 
 > [!CAUTION]
 Be careful with conflicting pull-up and pull-down resistors, especially when dealing with level shifters. Some sensors may already have pull-up or pull-down resistors built in.
+
 
 ### Level Shifting
 Level shifting is the process of converting the upper threshold of a digital signal from one voltage to another. 
@@ -43,6 +47,7 @@ Analog sensors return a continuous signal that varies over time and can take any
 
 >[!NOTE]
 >Analog sensors are very sensitive to noise and EMI, so we often have to filter them.
+
 ### Noise and Filtering
 In any real-world system noise is an inevitability. Dealing with noise is a critical first step to any sensor processing, especially when it comes to analog signals. 
 

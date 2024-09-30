@@ -1,7 +1,7 @@
 Harnessing is a critical component of any electrical system. Many of the electrical failures encountered in Baja are caused by harness failure. Having a robust and easily serviceable harness is critical to ensuring a reliable car.
 
 - [[M23 Harnessing|M23 Harnessing]]
-- [[M23 Connectors|M23 Connectors]]
+- [[Connectors|Connectors]]
 - [Nasa Workmanship Standards](https://archive.org/details/nasa-workmanship-standards/page/n31/mode/2up)
 
 ## Harnessing Diagrams
@@ -18,7 +18,7 @@ There are a few key details to include in your harnessing diagram.
 >[!TIP]
 >It's extremely helpful to put your harness into your project's CAD. Not only will it give you the exact length of wire needed, but also insight into potential clearance issues and hazards!
 
-3. **Connectors Used:** diagrams should specify the connector that is being used *on each end* of every wire. It's important to [[M23 Connectors|choose the right connector]] for the job.
+3. **Connectors Used:** diagrams should specify the connector that is being used *on each end* of every wire. It's important to [[Connectors|choose the right connector]] for the job.
 4. **Relevant Signal Information:** diagrams should specify miscellaneous but critical information about signals (differential pair, susceptible to noise, etc.)
 5. **Perceived Hazards:** diagrams should call out potential hazards a wire will encounter. Things like excessive heat, corrosive substances, and high abrasion are all good callouts.
 
@@ -81,7 +81,7 @@ Solid core wire is made from a single, solid strand of conductive material. It's
 Stranded core wire is much more flexible and has a slightly higher resistance (often negligible). Stranded wire is much more vibration resistant due to its flexibility, but the many strands make it much more difficult to terminate.
 
 ## Connector Selection
-It's also important to select a suitable connector. Consider environmental hazards and max amperage similarly to how you did for wires. Specific details on connectors, as well as my personal recommendations can be found [[M23 Connectors|here]].
+It's also important to select a suitable connector. Consider environmental hazards and max amperage similarly to how you did for wires. Specific details on connectors, as well as my personal recommendations can be found [[Connectors|here]].
 ## Mechanical Considerations
 Often times, electrical engineers overlook key mechanical considerations when harnessing a system. The mechanical aspects of harnessing can prove to be just as catastrophic if not taken into consideration!
 
@@ -162,3 +162,7 @@ You can improve serviceability with the following things:
 - **Grouping** of similar wires allows people to service chunks of a harness rather than going on a scavenger hunt finding one particular wire. In general, the tidier the wiring, the more easily you'll be able to find and service it.
 - **Labelling** wire is critical to allowing **new** people to troubleshoot and even repair the car. Try walking someone not versed in electronics through repairing/troubleshooting a system that's not labelled. It's not fun. Even though you may know where things are, *not everyone else will*! Use a labelling machine to mark critical wires or details about them.
 - **Service Loops** are an often overlooked part of making a harness. When repairing/modifying a harness, you often need more wire. A service loop is a loop of extra wire in the harness. Service loops can be lifesavers, and you should leave them near areas prone to modification or damage.
+### Dielectric Grease
+A commonly overlooked aspect of servicing connectors is taking them apart. This is especially true for connectors like [[Connectors#DT Connectors|DT connectors]], which have waterproofing seals that can make it hard to remove after a while. 
+
+Dielectric Grease is a non-conductive grease that is packed into a connector. It has the lubricating properties of normal grease, making connectors easy to disconnect. It also can make a connector more waterproof, since the grease blocks the ingress of water.
