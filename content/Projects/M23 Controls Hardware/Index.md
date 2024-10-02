@@ -23,7 +23,11 @@ To respond to this need, we've created the [[ECVT|ECVT]], an electronically cont
 
 
 >[!NOTE]
+>
 *For software questions, contact [Grant Paulker](https://www.linkedin.com/in/grantpauker/). I should also be able to answer high level programming questions that don't go too far into the weeds.*
+>
+
+
 
 
 ### Objectives and Goals

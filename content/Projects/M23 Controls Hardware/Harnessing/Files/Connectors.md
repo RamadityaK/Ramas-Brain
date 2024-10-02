@@ -18,8 +18,10 @@ They also come in a large variety of different configurations from 2 positions t
 
 Be mindful of the difference between DT and DTP connectors! DT connectors are designed for smaller gauge data wires. DTP connectors are designed for larger power wires, and can carry 25 amps of current continuously.
 
->[! CAUTION]
+>[!CAUTION]
+>
 >When purchasing DT connectors, pay special attention to compatibility and part numbers! The large number of DT connectors available means that it's easy to accidentally order the wrong pair of connectors.
+>
 
 Wires interface through DT connectors with crimps, which, when done properly, are almost as reliable a connection as a solder joint. It's imperative that you pick the right size crimp for your wire, as the wrong size of crimps can lead to premature connector failures.
 
