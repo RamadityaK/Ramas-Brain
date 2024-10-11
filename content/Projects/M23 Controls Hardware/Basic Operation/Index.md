@@ -93,12 +93,15 @@ Here's the procedure to start the engine:
 - Ensure there's enough fuel in the fuel tank.
 - Use the black lever on the air intake to set the air choke to full.
 
-	>[!TIP]
-	>The exact position of the choke is a *feel*-based thing. It sounds silly, but it can heavily vary based on air temperature, density, and altitude.
-	>
-	>To find the right amount of choke, put the choke to full, and then let more air in if the exhaust smells like gasoline (we can this running rich).
-	>
-	>If the engine has been ran recently and is **warm**, you can start the engine with no choke.
+
+>[!TIP]
+>
+>The exact position of the choke is a *feel*-based thing. It sounds silly, but it can heavily vary based on air temperature, density, and altitude.
+>
+>To find the right amount of choke, put the choke to full, and then let more air in if the exhaust smells like gasoline (we can this running rich).
+>
+>If the engine has been ran recently and is **warm**, you can start the engine with no choke.
+
 
 - You can then grab the pull cord on the engine (looks like a little black T handle attached to a cord on the side of the engine).
 - Pull the slack out of the pull cord slowly until you feel resistance. Let the cord go back into the engine.
