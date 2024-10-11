@@ -92,17 +92,6 @@ Here's the procedure to start the engine:
 - Ensure that all kill switches are up. 
 - Ensure there's enough fuel in the fuel tank.
 - Use the black lever on the air intake to set the air choke to full.
-
-
->[!TIP]
->
->The exact position of the choke is a *feel*-based thing. It sounds silly, but it can heavily vary based on air temperature, density, and altitude.
->
->To find the right amount of choke, put the choke to full, and then let more air in if the exhaust smells like gasoline (we can this running rich).
->
->If the engine has been ran recently and is **warm**, you can start the engine with no choke.
-
-
 - You can then grab the pull cord on the engine (looks like a little black T handle attached to a cord on the side of the engine).
 - Pull the slack out of the pull cord slowly until you feel resistance. Let the cord go back into the engine.
 - Brace yourself and pull the cord quickly, being sure to hold onto the handle tightly.
@@ -116,6 +105,16 @@ Here's the procedure to start the engine:
 >2. The car won't start.
 >
 >To fix this, you must let the engine sit and drain the fuel from the chambers. You can speed up the process by slowly rocking the car back and forth.
+
+
+>[!TIP]
+>
+>The exact position of the choke is a *feel*-based thing. It sounds silly, but it can heavily vary based on air temperature, density, and altitude.
+>
+>To find the right amount of choke, put the choke to full, and then let more air in if the exhaust smells like gasoline (we can this running rich).
+>
+>If the engine has been ran recently and is **warm**, you can start the engine with no choke.
+
 
 ## Running the Car
 Just a few quick notes for running the car. If you ever find the car turning off or not working, do not panic. 
