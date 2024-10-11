@@ -55,16 +55,14 @@ The red system at the bottom is our power and actuation system. A 52V [[Battery 
 
 The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communication between all three of these systems.
 ## Contents
-- Basic Operation
-	- Starting and Operation
-	- Maintenance
+- [[Projects/M23 Controls Hardware/Basic Operation/Index|Basic Operation]]
 - [[Projects/M23 Controls Hardware/PCB Design/Index|PCB Design]]
-	- [[PCB Design Guidelines|General Guidelines]]
-	- [[M23 DAQ PCB|DAQ PCB]]
-	- [[M23 Main PCB|Main PCB]]
-	- [[M23 Dashboard PCB|Dashboard PCB]]
-- [[Projects/M23 Controls Hardware/Harnessing/Index|Harnessing]]
-	- [[M23 Harnessing|M23 Harness Design]]
+	- [[PCB Design Guidelines|General Guidelines]] (WIP)
+	- [[M23 DAQ PCB|DAQ PCB]] (WIP)
+	- [[M23 Main PCB|Main PCB]] (WIP)
+	- [[M23 Dashboard PCB|Dashboard PCB]] (WIP)
+- [[Projects/M23 Controls Hardware/Harnessing/Index|Harnessing]] 
+	- [[M23 Harnessing|M23 Harness Design]] (WIP)
 	- [[Connectors|Connectors]]
 	- [[Harnessing Guidelines|Harnessing Guidelines]]
 - [[Projects/M23 Controls Hardware/Sensors and ICs/Index|Sensors and ICs]]
@@ -76,21 +74,20 @@ The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communi
 	- [[Strain Gauges|Strain Gauges]]
 	- [[Shock Travel|Shock Travel]]
 	- [[LoRa Radio|LoRa Radio]]
-- [[Projects/M23 Controls Hardware/Power and Actuation/Index|Power System]]
-	- [[Actuator|Actuator and Actuation]]
-		- [[Motor Selection|BLDC Motors]]
-		- [[Odrive Pro|O-Drive Pro]]
-	- [[Battery Selection|Battery and Power Distribution]]
-- [[M23 Controls|Control Theory]]
-- [[Projects/M23 Controls Hardware/Instrumentation/Index|Instrumentation]]
-	- Oscilloscopes
-	- Function Generators
-	- AD2
-	- Spectrum Analyzers
-	- Test Benching
-- [[M23 Known Issues and Troubleshooting|Known Issues and Troubleshooting]]
-- [[M23 Improvements|Further Improvements]]
-
+- [[Projects/M23 Controls Hardware/Power and Actuation/Index|Power System]] (WIP)
+	- [[Actuator|Actuator and Actuation]] (WIP)
+		- [[Motor Selection|BLDC Motors]] (WIP)
+		- [[Odrive Pro|O-Drive Pro]] (WIP)
+	- [[Battery Selection|Battery and Power Distribution]] (WIP)
+- [[M23 Controls|Control Theory]] (WIP)
+- [[Projects/M23 Controls Hardware/Instrumentation/Index|Instrumentation]] (WIP)
+	- Oscilloscopes (WIP)
+	- Function Generators (WIP)
+	- AD2 (WIP)
+	- Spectrum Analyzers (WIP)
+	- Test Benching (WIP)
+- [[M23 Known Issues and Troubleshooting|Known Issues and Troubleshooting]] (WIP)
+- [[M23 Improvements|Further Improvements]] (WIP)
 
 ## Acknowledgements
 I'd like to thank the following people, who were instrumental in providing me guidance and support through the whole process of designing M23's electronics system:
