@@ -48,8 +48,10 @@ The red curve is the idealized operation, but in practice, we see a lot more jit
 
 ## Control Inputs
 Before we can control the ECVT, we must implement a few sensor inputs.
-
 ### Engine Speed
+The engine speed sensor returns the rotary speed of the engine in RPM. Read [[Gear Tooth Sensors|the article on gear tooth sensors]] to learn more details. 
+
+The engine speed sensor determines the short term reactions of the primary sheave. I highly recommend reading the [[ECVT]] description if the mechanical aspects are confusing.
 ### Wheel Speed
 ### Throttle and Brake Inputs
 

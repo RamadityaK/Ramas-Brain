@@ -29,7 +29,7 @@ Be sure that the battery switch for the Odrive battery is off. This will keep yo
 The USB battery bank powers the main board of the PCB with 5V. Be sure to use a known-good battery bank, and ensure that the battery bank won't turn off mid-operation (some battery banks like to turn off if they don't pull enough current).
 
 >[!NOTE]
->You may be wondering why we run two batteries! I do too... Just kidding, the real reason is because a year or two ago, we had a lot of issues with ground loops, and that was the solution.
+>You may be wondering why we run two batteries! A year or two ago, we had a lot of issues with ground loops, and that was the solution.
 
 #### Checking if a Teensy is Installed
 
@@ -57,8 +57,9 @@ In order to start the main board, you should ensure that the power switch for th
 Then, plug in the USB B socket at the top of the main board to the USB battery bank, connecting the board to 5V power.
 
 >[!DANGER]
->Do not plug in a computer to the Teensy through the micro USB port when the battery bank is plugged in. Your USB port or the bank will be damaged
->
+>Do not plug in a computer to the Teensy through the micro USB port when the battery bank is plugged in. Your USB port or the bank will be damaged.
+
+
 
 ![[IMG_3430.jpeg]]
 *Picture of the USB battery bank*
