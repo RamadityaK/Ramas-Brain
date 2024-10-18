@@ -11,7 +11,7 @@ If you're a recruiter or hiring, feel free to check out my [[Resume.pdf|resume]]
 Click [[Projects/index|here]] to find a full list of my projects! 
 
 - [[Projects/M23 Controls Hardware/Index|Electronic Hardware Design for an ECVT]]
-- [[Projects/Baja Data Analysis/Index|Baja Data Analysis]] (WIP)
+- [[Projects/Baja Penn 24' Data Analysis/Index|Baja Data Analysis]] (WIP)
 - [[Projects/XRP Computer Vision/Index|Computer Vision for the XRP Robotics Platform]] (WIP)
 - [[Projects/VP Shunt Project/Index|VP Shunt]] (WIP)
 
