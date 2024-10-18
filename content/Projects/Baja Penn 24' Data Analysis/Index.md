@@ -78,9 +78,9 @@ During the course of the race, we pitted 4-5 times, with the last pitting being 
 
 ## Data Cleaning
 
-- **cycle_start_us** must be processed to provide continuation when it overflows and wraps around. A short Python script is provided to accomplish that. Please adjust for your use case:
+- **cycle_start_us** must be processed to provide continuation when the variable overflows and wraps around. A short Python script is provided to accomplish that. Please adjust for your use case:
+
 ```python
-# Detect and fix the cycle_start_us values
 adjustment = 0
 max_seen = 0
 new_values = []
@@ -93,9 +93,7 @@ for i in range(len(df)):
     max_seen = max(max_seen, df['cycle_start_us'][i])
     new_values.append(df['cycle_start_us'][i] + adjustment)
 
-# Create a new dataframe with the fixed cycle_start_us
-df_fixed = df.copy()
-df_fixed['cycle_start_us'] = new_values
+df['cycle_start_us'] = new_values
 ```
 
 ## Analysis

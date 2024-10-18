@@ -6,4 +6,8 @@ Over the years I've been involved in quite a few projects. Project work is alway
 Check out my most [[Projects/M23 Controls Hardware/Index|recent project]]!
 
 - [[Projects/M23 Controls Hardware/Index|Electronic Hardware for an Off-Roading ECVT]]
+- [[Projects/Baja Penn 24' Data Analysis/Index|Baja Pennsylvania Data Analysis]]
+- [[Projects/VP Shunt Project/Index|VP Shunt Project]] (WIP)
+- [[Projects/XRP Computer Vision/Index|XRP Computer Vision Project]] (WIP)
+
 
