@@ -1,4 +1,4 @@
-Gear tooth sensors are primarily used to detect the angular velocity of a rotating object. We use them in our system to monitor the RPM of the engine and the wheels, two critical components of our [[M23 Controls|controls system]]. 
+Gear tooth sensors are primarily used to detect the angular velocity of a rotating object. We use them in our system to monitor the RPM of the engine and the wheels, two critical components of our [[M23 Controls|controls system]]. If you'd like to view a working example of using a gear tooth sensor, please refer to this [[Projects/Quick Guide to Gear Tooth Sensors/Index|guide]].
 
 ## Working Principle
 A gear tooth sensor module consists of three main parts:

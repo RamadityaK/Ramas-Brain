@@ -9,7 +9,7 @@ The data analysis will focus on M23's endurance race run at the Pennsylvania Col
 
 The weather was sunny, with mild humidity.
 
-During the course of the race, we pitted 4-5 times, with the last pitting being after multiple failures of the drivetrain, limiting the car to 1WD :).
+During the course of the race, we pitted 4-5 times, with the last pitting being after multiple failures of the drivetrain, limiting the car to 1WD.
 
 ## Breakdown of Variables
 
