@@ -79,13 +79,8 @@ The blue [[Can Bus|CAN BUS]] is the information highway that facilitates communi
 		- [[Motor Selection|BLDC Motors]] (WIP)
 		- [[Odrive Pro|O-Drive Pro]] (WIP)
 	- [[Battery Selection|Battery and Power Distribution]] (WIP)
-- [[M23 Controls|Control Theory]] (WIP)
-- [[Projects/M23 Controls Hardware/Instrumentation/Index|Instrumentation]] (WIP)
-	- Oscilloscopes (WIP)
-	- Function Generators (WIP)
-	- AD2 (WIP)
-	- Spectrum Analyzers (WIP)
-	- Test Benching (WIP)
+- [[M23 Controls|Control Theory]]
+- [[Projects/M23 Controls Hardware/Instrumentation/Index|Instrumentation]]
 - [[M23 Known Issues and Troubleshooting|Known Issues and Troubleshooting]] (WIP)
 - [[M23 Improvements|Further Improvements]] (WIP)
 
