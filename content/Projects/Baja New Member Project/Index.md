@@ -1,9 +1,11 @@
 ---
 title: Baja Software Testbench New Member Project
 ---
-**Software Difficulty**: 4/5
-**Mechanical Difficulty**: 4/5
-**Project Group Size**: 5-8
+## Project Details
+
+- **Software Difficulty**: 4/5
+- **Mechanical Difficulty**: 4/5
+- **Project Group Size**: 5-8
 
 Welcome to your new member group! As a part of your onboarding process onto our team, you and your group will be working on a 10 week long project together! I’ll also be organizing socials, office hours, and in general helping y’all get settled into not only the club, but UCLA!
 
@@ -41,4 +43,15 @@ If you'd like to join the hardware team for this project, you'll need experience
 
 - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
+
+***
+## Meet Your Project Lead
+
+My name is Rama! I'm a 4th year undergraduate electrical engineering major. I've been on Baja for all 4 years of my time at UCLA, and in my time on the team, I've occupied the following positions:
+- Year 1: Electronics New Member
+- Year 2: Electronics Hardware Project Engineer
+- Year 3: Baja Technical Director
+- This Year: All-Racing President
+
+My interests are in control theory, digital signal processing, and I'm a tinkerer by heart. I love pushing the boundaries on our team, using novel methods and data-driven design.
 
