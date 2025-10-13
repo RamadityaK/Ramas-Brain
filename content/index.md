@@ -2,13 +2,13 @@
 title: Home
 ---
 ![[DSCF8660.jpg]]
-Hi! My name is Ramaditya Kotha. I'm currently an undergrad studying Electrical Engineering at UCLA. This is my digital garden, a collection of my [[Projects/index|projects]], [[Notes/Index|notes]], and thoughts that I've decided to share on the internet!
+Hi! My name is Ramaditya Kotha. I'm currently an undergrad studying Electrical Engineering at UCLA. This is a collection of my [[Projects/index|projects]], [[Notes/Index|notes]], and thoughts.
 
-Some of my interests include embedded systems, machine learning, and control theory.
+Some of my interests include embedded systems, communications, and control theory.
 
 In my spare time, I enjoy photography, woodworking, and cycling!
 
-If you're interested in what I've been up to, check out some of my [[Projects/index|projects]]!
+If you're a Baja new member, please click here!
 
 If you're a recruiter or hiring, check out my [[Portfolio/Index|portfolio]].
 

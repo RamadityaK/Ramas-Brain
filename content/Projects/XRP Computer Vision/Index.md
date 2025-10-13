@@ -1,3 +1,0 @@
----
-title: XRP Computer Vision
----
