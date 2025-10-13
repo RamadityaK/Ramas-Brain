@@ -1,7 +1,9 @@
 ---
 title: Baja Software Testbench New Member Project
 ---
-Project Members: 
+**Software Difficulty**: 4/5
+**Mechanical Difficulty**: 4/5
+**Project Group Size**: 5-8
 
 Welcome to your new member group! As a part of your onboarding process onto our team, you and your group will be working on a 10 week long project together! I’ll also be organizing socials, office hours, and in general helping y’all get settled into not only the club, but UCLA!
 
