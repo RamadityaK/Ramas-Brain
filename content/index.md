@@ -8,7 +8,7 @@ Some of my interests include embedded systems, communications, and control theor
 
 In my spare time, I enjoy photography, woodworking, and cycling!
 
-If you're a Baja new member, please click here!
+If you're a Baja new member, [[Projects/Baja New Member Project/Index|please click here]]!
 
 If you're a recruiter or hiring, check out my [[Portfolio/Index|portfolio]].
 
