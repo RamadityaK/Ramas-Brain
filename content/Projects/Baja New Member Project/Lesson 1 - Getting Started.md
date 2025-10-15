@@ -1,5 +1,4 @@
 ---
-draft: "false"
 title: "Lesson 1: Getting Started with Baja Software"
 ---
 In order to do all the things you’ll need to do on Baja, you’ll need to first understand what we do, why we do it, and install the software required.
