@@ -29,8 +29,6 @@ If you'd like to join the hardware team for this project, you'll need experience
 - [[Lesson 1 - Getting Started|Lesson 1: Getting Started]]
 
 
-
-
 ***
 ## Reminders
 
@@ -41,8 +39,8 @@ If you'd like to join the hardware team for this project, you'll need experience
 ***
 ## Resources
 
-- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-- [ETH Zurich Digital Control Class](https://idsc.ethz.ch/content/dam/ethz/special-interest/mavt/dynamic-systems-n-control/idsc-dam/Lectures/Digital-Control-Systems/Slides_DigReg_2013.pdf) (Not Necessary, But Interesting)
+- [[CPP Guidelines|ISO CPP Guidelines]]
+- [PEP8 Python Style Guide](https://peps.python.org/pep-0008/)
 
 ***
 ## Meet Your Project Lead

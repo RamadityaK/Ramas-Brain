@@ -92,7 +92,7 @@ To write a good unit test, you must test your code not only under normal operati
 
 If you have anything that’s not easily documented in code, or deserves more justification, you should write separate documentation. The same goes for blocks of code you write. If you create a class, you should write documentation for that class that details how it should be used and its behavior. One of the strengths of object oriented programming is that you can easily compartmentalize functionality, so the next programmer doesn’t need to care how it works, but only needs to care about inputs and outputs to your system.
 
-[Google’s Style Guide to Writing Good C++](https://google.github.io/styleguide/cppguide.html)
+Please read and become familiar with the [[CPP Guidelines|ISO CPP Guidelines]]. These guidelines will be relevant for most of your career if you do any C++ work, and they contain good programming principles for any programming language.
 
 ## Understanding Scope and Reading a Ticket
 
@@ -111,5 +111,5 @@ Prepare for a PR by making your code easy to read, and squashing your commit his
 
 It’s good etiquette in a PR to consolidate PR changes into waves of commits. So on your first round of PR, you squash all your changes into a new commit called “PR CHANGES 1” or something.
 
-## Your First Ticket!
-Now, it's time y'all to pick your first ticket!
+## Your Tasks!
+Let's now divy up your tasks!
